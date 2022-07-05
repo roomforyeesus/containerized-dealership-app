@@ -1,0 +1,11 @@
+  applications:
+  - name: bestcar
+    routes:
+      - route: bestcarhl.mybluemix.net
+    memory: 128M
+    buildpack: python_buildpack
+  - name: bestcar-nginx
+    routes:
+      - route: bestcarhl.mybluemix.net/static
+    memory: 128M
+    buildpack: staticfile_buildpack
