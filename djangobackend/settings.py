@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["localhost", "bestcarhl.mybluemix.net", "127.0.0.1", "d53467c6.us-south.apigw.appdomain.cloud"]
+ALLOWED_HOSTS = ["localhost", "bestcarhl.mybluemix.net", "127.0.0.1", "d53467c6.us-south.apigw.appdomain.cloud","dealur-app.herokuapp.com"]
 
 
 # Application definition
